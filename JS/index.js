@@ -115,6 +115,7 @@ function init(){
  $('#submit').click(function(e){
 
 		 e.preventDefault();
+	 	$("li").remove();
 		 watchForm();
 		 
 		 
